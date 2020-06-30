@@ -1,0 +1,87 @@
+<!--  --------------------------------- VENTANA DE ELIMINAR (DIALOG) ------------------------  --> 
+  <div class="modal fade" id="wdelete" tabindex="-1" role="dialog" aria-labelledby="edit" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">        
+        	<h4 class="modal-title custom_align" id="Heading">Eliminar el registro</h4>
+       </div>
+       <div class="modal-body">
+          <div class="alert alert-danger"><span class="glyphicon glyphicon-warning-sign"></span> ¿Deseas eliminar el Producto?</div>
+       </div>
+       <div class="modal-footer ">
+        <input type="hidden" id="id-prod" name="id-prod">
+        <button type="button" class="btn btn-success" value="12" id="btnDelete"><span class="glyphicon glyphicon-ok-sign"></span> Yes</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> No</button>
+      </div>
+    </div>    
+  </div>      
+  </div> <!-- /.modal-dialog --> 
+  
+  
+  <!--  --------------------------------- VENTANA DE EDITAR (DIALOG) ------------------------  --> 
+  <div class="modal fade" id="edit" tabindex="-1" role="dialog" aria-labelledby="edit" aria-hidden="true">
+      <div class="modal-dialog">
+    <div class="modal-content">
+          <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h4 class="modal-title custom_align" id="Heading">Edit Your Detail</h4>
+      </div>
+          <div class="modal-body">
+          <div class="form-group">
+        <input class="form-control " type="text" placeholder="Tiger Nixon">
+        </div>
+        <div class="form-group">
+        
+        <input class="form-control " type="text" placeholder="System Architect">
+        </div>
+        <div class="form-group">
+        
+        
+      <input class="form-control " type="text" placeholder="Edinburgh">
+        
+        </div>
+      </div>
+          <div class="modal-footer ">
+        <button type="button" class="btn btn-warning btn-lg" style="width: 100%;"><span class="glyphicon glyphicon-ok-sign"></span> Update</button>
+      </div>
+        </div>
+    <!-- /.modal-content --> 
+  </div>
+      <!-- /.modal-dialog --> 
+    </div>
+    
+    
+    <!--  --------------------------------- VENTANA DE NUEVO (DIALOG) ------------------------  --> 
+    
+    <div class="modal fade" id="addProducto" tabindex="-1" role="dialog" aria-labelledby="edit" aria-hidden="true">
+      <div class="modal-dialog">
+    <div class="modal-content">
+          <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h4 class="modal-title custom_align" id="Heading">Agregar nuevo Producto</h4>
+      </div>
+          <div class="modal-body">
+          <div class="form-group">
+        <input class="form-control" id="idProd" type="text" placeholder="Identificador de producto">
+        </div>
+        <div class="form-group">        
+            <input class="form-control" id="Desc" type="text" placeholder="Descripción del producto">
+        </div>
+        <div class="form-group"> 
+            <input class="form-control" id="Precio" type="text" size="4" placeholder="Precio">        
+        </div>
+        <div class="form-group"> 
+            <input class="form-control" id="Cant" type="text" size="4" placeholder="Cantidad">        
+        </div>
+      </div>
+          <div class="modal-footer ">
+        <button id="btnNewProd" type="button" class="btn btn-warning btn-lg" style="width: 100%;"><span class="glyphicon glyphicon-ok-sign"></span> Registrar </button>
+      </div>
+        </div>
+    <!-- /.modal-content --> 
+  </div>
+      <!-- /.modal-dialog --> 
+    </div>
+    
+    
+    
